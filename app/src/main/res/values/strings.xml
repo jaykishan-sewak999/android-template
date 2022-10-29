@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tempelate</string>
+    <string name="single_api_call">Single API call</string>
+</resources>
