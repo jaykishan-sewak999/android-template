@@ -25,7 +25,6 @@ class SingleAPICallViewModel(private val apiCallHelper: ApiCallHelper) : ViewMod
             catch (e:Exception){
                 cricketersList.postValue(APIResult.fail(null,e.message))
             }
-
         }
     }
 }

@@ -14,7 +14,5 @@ data class APIResult<out T>(val status: Status, val data: T?, val message:String
         fun <T> loading(data: T?, msg: String?): APIResult<T>{
             return APIResult(Status.LOADING,null, msg)
         }
-
     }
-
 }

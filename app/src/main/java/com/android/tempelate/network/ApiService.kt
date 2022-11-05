@@ -7,4 +7,6 @@ interface ApiService {
     @GET("cricket-players")
     suspend fun getCricketers(): List<User>
 
+    @GET("football-players")
+    suspend fun getFootballPlayers(): List<User>
 }

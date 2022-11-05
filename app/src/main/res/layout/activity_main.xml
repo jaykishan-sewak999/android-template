@@ -6,17 +6,26 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.MainActivity">
+        tools:context=".ui.MainActivity"
+        android:layout_margin="20dp">
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_open_single_api"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/single_api_call"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_multi_single_api"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/multi_api_call"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/btn_open_single_api"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
