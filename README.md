@@ -9,9 +9,15 @@ This repository contains a tempate for android app with kotlin, which include be
   <li>Recyclerview - list data</li>
   <li>ConstraintLayout</li>
 </ul>
+
+You can refer My Blog: [Retrofit with Kotlin Coroutines](https://medium.com/@jecky999/coroutine-api-call-part-1-6ba302b78f31) to have better understanding
+
+## If this project helps you in anyway, show your love :heart: by putting a :star: on this project :v:
+
 ### License
+
 ```
-   Copyright (C) 2022 JAYKISHAN SEWAK
+   Copyright (C) 2022 Jaykishan Sewak
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -26,5 +32,5 @@ This repository contains a tempate for android app with kotlin, which include be
    limitations under the License.
 ```
 
-### Contributing to ScopStorage
+### Contributing to Android-Template
 Just make pull request. You are in!
