@@ -28,7 +28,8 @@
             android:screenOrientation="fullSensor"/>
         <activity android:name=".ui.multiapi.MultipleAPICallActivity"
             android:screenOrientation="fullSensor"/>
-
+        <activity android:name=".ui.parallelapi.ParallelAPICallActivity"
+            android:screenOrientation="fullSensor"/>
     </application>
 
 </manifest>

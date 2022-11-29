@@ -7,6 +7,7 @@ import androidx.databinding.DataBindingUtil
 import com.android.tempelate.R
 import com.android.tempelate.databinding.ActivityMainBinding
 import com.android.tempelate.ui.multiapi.MultipleAPICallActivity
+import com.android.tempelate.ui.parallelapi.ParallelAPICallActivity
 import com.android.tempelate.ui.singleapi.SingleAPICallActivity
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +23,10 @@ class MainActivity : AppCompatActivity() {
 
         dataBinding?.btnMultiSingleApi?.setOnClickListener {
             startActivity(Intent(this@MainActivity,MultipleAPICallActivity::class.java))
+        }
+
+        dataBinding?.btnMultiParallelApi?.setOnClickListener {
+            startActivity(Intent(this@MainActivity,ParallelAPICallActivity::class.java))
         }
     }
 }
