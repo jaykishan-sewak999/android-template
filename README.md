@@ -12,6 +12,11 @@ This repository contains a tempate for android app with kotlin, which include be
 
 You can refer My Blog: [Retrofit with Kotlin Coroutines](https://medium.com/@jecky999/coroutine-api-call-part-1-6ba302b78f31) to have better understanding
 
+## Kotlin Coroutines Examples for Android Development: 
+* **Async vs Launch** Learn how to start coroutine with launch and async. This is a very
+  simple use-case in Android App Development.
+    * [Activity Code](app/src/main/java/com/example/kotlinexamples/CoroutinExampleActivity.kt)
+
 ## If this project helps you in anyway, show your love :heart: by putting a :star: on this project :v:
 
 ### License
