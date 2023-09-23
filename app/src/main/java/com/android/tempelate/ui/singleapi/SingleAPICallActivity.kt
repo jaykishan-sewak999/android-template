@@ -16,7 +16,7 @@ import com.android.tempelate.network.APICallHelperImp
 import com.android.tempelate.util.Status
 import com.android.tempelate.util.ViewModelFactory
 import com.google.android.material.snackbar.Snackbar
-import com.mindorks.example.coroutines.data.api.RetrofitBuilder
+import com.android.tempelate.network.RetrofitBuilder
 
 class SingleAPICallActivity : AppCompatActivity() {
 

@@ -1,6 +1,5 @@
-package com.mindorks.example.coroutines.data.api
+package com.android.tempelate.network
 
-import com.android.tempelate.network.ApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
