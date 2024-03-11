@@ -4,9 +4,9 @@ import com.android.tempelate.model.User
 import retrofit2.http.GET
 
 interface ApiService {
-    @GET("cricket-players")
+    @GET("users")
     suspend fun getCricketers(): List<User>
 
-    @GET("football-players")
+    @GET("users")
     suspend fun getFootballPlayers(): List<User>
 }
