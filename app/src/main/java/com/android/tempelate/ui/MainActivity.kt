@@ -12,7 +12,7 @@ import com.android.tempelate.ui.singleapi.SingleAPICallActivity
 
 class MainActivity : AppCompatActivity() {
 
-    var dataBinding: ActivityMainBinding? = null
+    private var dataBinding: ActivityMainBinding? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

@@ -21,8 +21,8 @@ import com.android.tempelate.network.RetrofitBuilder
 class SingleAPICallActivity : AppCompatActivity() {
 
     private var dataBinding: ActivitySingleApiCallBinding? = null
-    var viewModel: SingleAPICallViewModel?= null
-    var adapter: CricketerAdapter?= null
+    private var viewModel: SingleAPICallViewModel?= null
+    private var adapter: CricketerAdapter?= null
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
